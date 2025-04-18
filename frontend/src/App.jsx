@@ -1,21 +1,11 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import AboutSection from "./components/AboutSection";
-import ServicesSection from "./components/ServicesSection";
-import Footer from "./components/Footer";
-import "./App.css";
+import HomePage from "./HomePage"
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <ServicesSection />
-      <Footer />
+      <HomePage />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
